@@ -10,7 +10,7 @@ export default function HeroSequence() {
       frameCount={238}
       startFrame={3}
       padLength={4}
-      fallbackImage="/1-frames/frame-0240.png"
+      fallbackImage="/1-frames/frame-0240.webp"
       fallbackChildren={
         <div className="text-center px-4 max-w-2xl mx-auto mt-24">
           <h1 className="font-serif text-4xl md:text-6xl text-offwhite mb-6">Astronomia Luxe</h1>

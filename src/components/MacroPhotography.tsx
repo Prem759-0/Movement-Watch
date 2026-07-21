@@ -19,7 +19,7 @@ export default function MacroPhotography() {
         className="absolute inset-0 w-full h-[140%] -top-[20%] bg-cover bg-center"
         style={{ 
           y,
-          backgroundImage: "url('/1-frames/frame-0110.png')"
+          backgroundImage: "url('/1-frames/frame-0110.webp')"
         }}
       />
       

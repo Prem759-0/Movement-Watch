@@ -10,7 +10,7 @@ export default function TertiarySequence() {
       frameCount={240}
       startFrame={1}
       padLength={4}
-      fallbackImage="/4-frames/frame-0240.png"
+      fallbackImage="/4-frames/frame-0240.webp"
       fallbackChildren={
         <div className="text-center px-4 max-w-2xl mx-auto mt-24">
           <h2 className="font-serif text-4xl md:text-6xl text-offwhite mb-6">A New Dimension</h2>

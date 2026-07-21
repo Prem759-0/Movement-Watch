@@ -46,7 +46,7 @@ export default function CanvasSequence({
         return new Promise<void>((resolve) => {
           const img = new Image();
           const frameNum = (i + startFrame).toString().padStart(padLength, "0");
-          img.src = `${folderPath}/frame-${frameNum}.png`;
+          img.src = `${folderPath}/frame-${frameNum}.webp`;
           
           img.onload = async () => {
             try {
