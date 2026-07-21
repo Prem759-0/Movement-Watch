@@ -168,11 +168,28 @@ export default function CanvasSequence({
   return (
     <div ref={containerRef} className="relative h-[350vh] bg-black">
       <div className="sticky top-0 h-screen w-full overflow-hidden">
+        
+        {!isLoaded && (
+          <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black">
+            <div className="w-12 h-12 border-4 border-white/10 border-t-accent rounded-full animate-spin mb-6" />
+            <p className="font-sans text-xs tracking-[0.3em] text-accent-bright uppercase animate-pulse">
+              Loading Sequence
+            </p>
+          </div>
+        )}
+
         <canvas
           ref={canvasRef}
-          className="absolute inset-0 w-full h-full"
+          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
         />
-        {children(scrollYProgress)}
+        
+        {/* Vignette overlay to ensure text is highly legible against bright watch parts */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/80 pointer-events-none z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/50 pointer-events-none z-0" />
+
+        <div className="relative z-10 w-full h-full">
+          {children(scrollYProgress)}
+        </div>
       </div>
     </div>
   );

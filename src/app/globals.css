@@ -5,17 +5,32 @@
   --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
   
   --color-black: #060606;
-  --color-accent: #C9A05C;
+  --color-accent: #C5837B;
+  --color-accent-bright: #E5A9A1;
   --color-offwhite: rgba(237, 232, 224, 0.9);
   --color-offwhite-muted: rgba(237, 232, 224, 0.55);
 
   --color-background: var(--color-black);
   --color-foreground: var(--color-offwhite);
+
+  --animate-shimmer: shimmer 2.5s infinite linear;
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
 }
 
 @layer base {
   body {
     background-color: var(--color-background);
+    /* Subtle radial gradient to give cinematic depth */
+    background-image: radial-gradient(circle at 50% 0%, rgba(201, 160, 92, 0.08) 0%, rgba(6, 6, 6, 1) 70%);
+    background-attachment: fixed;
     color: var(--color-foreground);
     overscroll-behavior: none;
     -webkit-font-smoothing: antialiased;

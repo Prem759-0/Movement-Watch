@@ -18,7 +18,7 @@ export default function Footer() {
             Private Appointment
           </h2>
           <p className="font-sans text-base text-offwhite-muted font-light max-w-lg mx-auto">
-            The Astronomia Luxe is strictly limited in production. Register your interest to arrange a private viewing at our Geneva manufacture or via an exclusive digital consultation.
+            These pieces are strictly limited in production. Register your interest to arrange a private viewing at our Geneva manufacture or via an exclusive digital consultation.
           </p>
         </motion.div>
 
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="font-serif text-xl tracking-wide text-offwhite-muted">
-            ASTRONOMIA
+            HAUTE HORLOGERIE
           </p>
           <div className="flex gap-8">
             <a href="#" className="font-sans text-xs uppercase tracking-widest text-offwhite-muted hover:text-white transition-colors">Privacy</a>

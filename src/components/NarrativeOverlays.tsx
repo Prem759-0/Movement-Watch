@@ -29,10 +29,10 @@ export default function NarrativeOverlays({ scrollProgress }: Props) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 md:px-0"
       >
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-offwhite mb-4 tracking-tight drop-shadow-lg">
-          Astronomia Luxe
+          Jacob & Co.
         </h1>
-        <p className="font-sans text-lg md:text-xl text-offwhite-muted tracking-wide font-light">
-          Time, laid bare.
+        <p className="font-sans text-lg md:text-2xl text-offwhite-muted tracking-wide font-light">
+          Bugatti Chiron Tourbillon Rose Gold
         </p>
       </motion.div>
 

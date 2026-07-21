@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Astronomia Luxe | Time, laid bare",
-  description: "A perpetual calendar with nothing to hide. 407 components. Zero shortcuts.",
+  title: "Haute Horlogerie | Luxury Timepieces",
+  description: "Showcasing the Jacob & Co. Bugatti Chiron Tourbillon and Louis Moinet Memoris 18K Red Gold limited edition.",
 };
 
 export const viewport: Viewport = {
@@ -30,8 +30,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${playfair.variable} ${inter.variable} antialiased`}
+      suppressHydrationWarning
     >
-      <body className="bg-[#060606] text-[#EDE8E0] font-sans selection:bg-[#C9A05C]/30 selection:text-white">
+      <body 
+        className="bg-[#060606] text-[#EDE8E0] font-sans selection:bg-[#C9A05C]/30 selection:text-white"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>

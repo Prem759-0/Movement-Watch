@@ -28,11 +28,11 @@ export default function TertiaryOverlays({ scrollProgress }: Props) {
         style={{ opacity: opacity1 }}
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 md:px-0"
       >
-        <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-offwhite mb-4 tracking-tight drop-shadow-lg">
-          A New Dimension
+        <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-4 tracking-tight drop-shadow-[0_0_30px_rgba(197,131,123,0.3)] bg-clip-text text-transparent bg-gradient-to-br from-white via-offwhite to-accent">
+          Limited Edition
         </h2>
-        <p className="font-sans text-lg md:text-xl text-offwhite-muted tracking-wide font-light">
-          The profile of perfection.
+        <p className="font-sans text-lg md:text-xl text-offwhite-muted tracking-wide font-light drop-shadow-md">
+          12 Watches Worldwide · LM-79.50.15
         </p>
       </motion.div>
 
@@ -45,10 +45,10 @@ export default function TertiaryOverlays({ scrollProgress }: Props) {
         )}
       >
         <div className="max-w-md text-center md:text-left">
-          <h2 className="font-serif text-3xl md:text-5xl text-offwhite mb-4 leading-snug">
+          <h2 className="font-serif text-3xl md:text-5xl text-offwhite mb-4 leading-snug drop-shadow-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-accent-bright">
             Multi-axis<br />Tourbillon
           </h2>
-          <p className="font-sans text-base text-offwhite-muted font-light leading-relaxed">
+          <p className="font-sans text-base text-offwhite-muted font-light leading-relaxed bg-black/20 backdrop-blur-sm p-4 rounded-lg border border-white/5">
             Defying gravity from every conceivable angle, the twin-axis tourbillon commands the lower hemisphere.
           </p>
         </div>
@@ -63,10 +63,10 @@ export default function TertiaryOverlays({ scrollProgress }: Props) {
         )}
       >
         <div className="max-w-md text-center md:text-right">
-          <h2 className="font-serif text-3xl md:text-5xl text-offwhite mb-4 leading-snug">
+          <h2 className="font-serif text-3xl md:text-5xl text-offwhite mb-4 leading-snug drop-shadow-xl bg-clip-text text-transparent bg-gradient-to-l from-white to-accent-bright">
             Sapphire<br />Architecture
           </h2>
-          <p className="font-sans text-base text-offwhite-muted font-light leading-relaxed">
+          <p className="font-sans text-base text-offwhite-muted font-light leading-relaxed bg-black/20 backdrop-blur-sm p-4 rounded-lg border border-white/5">
             The domed crystal acts as a lens, letting light dictate form and revealing unparalleled mechanical depth.
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function TertiaryOverlays({ scrollProgress }: Props) {
         )}
       >
         <div className="text-center">
-          <h2 className="font-serif text-3xl md:text-5xl text-offwhite mb-8 leading-snug">
+          <h2 className="font-serif text-4xl md:text-6xl mb-8 leading-snug drop-shadow-[0_0_40px_rgba(201,160,92,0.4)] bg-clip-text text-transparent bg-gradient-to-r from-accent-bright via-white to-accent-bright animate-shimmer bg-[length:200%_auto]">
             Unparalleled Depth.
           </h2>
         </div>

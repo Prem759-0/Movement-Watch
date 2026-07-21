@@ -29,10 +29,10 @@ export default function SecondaryOverlays({ scrollProgress }: Props) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 md:px-0"
       >
         <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-offwhite mb-4 tracking-tight drop-shadow-lg">
-          The Rose Gold Edition
+          Louis Moinet
         </h2>
         <p className="font-sans text-lg md:text-xl text-offwhite-muted tracking-wide font-light">
-          A different perspective on time.
+          Memoris 18K Red Gold
         </p>
       </motion.div>
 
